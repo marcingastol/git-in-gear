@@ -18,10 +18,10 @@ Q: What is the purpose of assigning access permissions in Azure DevOps?
 
 A:
 
-They help to organize the codebase better.
-They allow anyone to make changes to the code.
-They restrict access to authorized team members only.
-They automatically fix code errors.
+1. They help to organize the codebase better.
+2. They allow anyone to make changes to the code.
+3. They restrict access to authorized team members only.
+4. They automatically fix code errors.
 
 ### Step 2: Establishing Branch Policies
 
@@ -39,10 +39,10 @@ Q: Why are branch policies important in Azure DevOps?
 
 A:
 
-To make the code look more professional.
-To ensure the code is of high quality and secure before merging changes.
-To give everyone access to make changes to the code.
-To delete the branch after merging changes.
+1. To make the code look more professional.
+2. To ensure the code is of high quality and secure before merging changes.
+3. To give everyone access to make changes to the code.
+4. To delete the branch after merging changes.
 
 ### Step 3: Resolving Merge Conflicts
 
@@ -66,10 +66,10 @@ Q: Why do merge conflicts occur in Git?
 
 A:
 
-Because the code is not properly formatted.
-Because the same part of the code has been modified in two different branches.
-Because the code has not been reviewed.
-Because the repository has been deleted.
+1. Because the code is not properly formatted.
+2. Because the same part of the code has been modified in two different branches.
+3. Because the code has not been reviewed.
+4. Because the repository has been deleted.
 
 ### Step 4: Reviewing Pull Requests
 
@@ -93,10 +93,10 @@ Q: Why is reviewing pull requests important?
 
 A:
 
-It helps developers write more complex code.
-It ensures that only high-quality code is merged into the main branch.
-It automatically merges branches.
-It helps developers make their code more complex.
+1. It helps developers write more complex code.
+2. It ensures that only high-quality code is merged into the main branch.
+3. It automatically merges branches.
+4. It helps developers make their code more complex.
 
 ### Step 5: Fetching and Pulling from the Remote Repository
 
@@ -126,10 +126,10 @@ Q: Why should you enable the Git Credential Helper in VS Code?
 
 A:
 
-To have your Git credentials remembered across sessions securely.
-To automatically resolve merge conflicts.
-To have a better-looking codebase.
-To automatically generate Git commands.
+1. To have your Git credentials remembered across sessions securely.
+2. To automatically resolve merge conflicts.
+3. To have a better-looking codebase.
+4. To automatically generate Git commands.
 
 ### Step 7: Secure Git Credentials
 
@@ -151,10 +151,10 @@ Q: Why should you regularly fetch and pull from the remote repository?
 
 A:
 
-To keep your local codebase up to date and prevent conflicts.
-To automatically fix any bugs in the code.
-To make your code look more professional.
-To allow anyone to make changes to the code.
+1. To keep your local codebase up to date and prevent conflicts.
+2. To automatically fix any bugs in the code.
+3. To make your code look more professional.
+4. To allow anyone to make changes to the code.
 
 ### Step 8: Protecting Sensitive Data with .gitignore
 
@@ -180,19 +180,19 @@ Q: Why should you regularly push your changes to the remote repository?
 
 A:
 
-To delete the remote repository.
-To make your code look more professional.
-To ensure that your contributions are available to other team members.
-To automatically fix any bugs in the code.
+1. To delete the remote repository.
+2. To make your code look more professional.
+3. To ensure that your contributions are available to other team members.
+4. To automatically fix any bugs in the code.
 
 Q: What is the main purpose of a .gitignore file?
 
 A:
 
-To list the files that need to be tracked by Git.
-To automatically fix bugs in the code.
-To prevent certain files from being tracked by Git.
-To automatically push changes to the remote repository.
+1. To list the files that need to be tracked by Git.
+2. To automatically fix bugs in the code.
+3. To prevent certain files from being tracked by Git.
+4. To automatically push changes to the remote repository.
 
 
 By completing this lab, you've learned how to secure your codebase and maintain its integrity using a variety of tools and practices. You've set up access permissions, established branch policies, resolved merge conflicts, reviewed pull requests, secured Git credentials, and regularly fetched, pulled, and pushed to the remote repository. Additionally, you've learned how to protect sensitive data using the .gitignore file. These are all important skills for collaborative software development and will significantly contribute to the quality and security of your code.
