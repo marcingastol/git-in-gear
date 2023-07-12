@@ -29,10 +29,10 @@ Q: What is the purpose of the staging area in Git?
 
 A:
 
-It tracks all the files and changes that are about to be committed.
-It compiles the project's source code.
-It shows the history of all commits made.
-It checks the status of your repository.
+1. It tracks all the files and changes that are about to be committed.
+2. It compiles the project's source code.
+3. It shows the history of all commits made.
+4. It checks the status of your repository.
 
 ### Step 2: Commit Your Changes
 
@@ -44,10 +44,10 @@ Committing is the process of saving your changes to the local repository.
 
 Q: What information should a good commit message include?
 
-The weather forecast for the day.
-The time the changes were made.
-The reason for the changes and a description of the changes.
-The list of files that are about to be committed.
+1. The weather forecast for the day.
+2. The time the changes were made.
+3. The reason for the changes and a description of the changes.
+4. The list of files that are about to be committed.
 
 ### Step 3: Push Your Changes to Azure DevOps
 
@@ -60,10 +60,10 @@ VS Code will then push your changes to your Azure DevOps repository.
 
 Q: What does the "push" operation do in Git?
 
-It downloads changes from the remote repository to your local repository.
-It uploads your commit(s) from your local repository to a remote repository.
-It changes the current working directory.
-It combines the changes from different branches.
+1. It downloads changes from the remote repository to your local repository.
+2. It uploads your commit(s) from your local repository to a remote repository.
+3. It changes the current working directory.
+4. It combines the changes from different branches.
 
 ### Step 4: Pull Changes from Azure DevOps
 
@@ -76,10 +76,10 @@ VS Code will then pull any changes from your Azure DevOps repository and merge t
 
 Q: Why is "pulling" important in a team environment?
 
-It lets you work on your own without any disturbances.
-It ensures that your local repository is always up to date with the latest changes in the remote repository.
-It prevents you from committing changes to your repository.
-It deletes unwanted changes from your repository.
+1. It lets you work on your own without any disturbances.
+2. It ensures that your local repository is always up to date with the latest changes in the remote repository.
+3. It prevents you from committing changes to your repository.
+4. It deletes unwanted changes from your repository.
 
 ### Step 5: Checking the Status of Your Repository
 
@@ -92,10 +92,10 @@ Q: What information does the status of a Git repository provide?
 
 A:
 
-The email address of the repository owner.
-The differences between the working directory and the staging area, including which files have changes that are staged, which files have changes that aren't yet staged, and which files aren't being tracked by Git.
-The list of all collaborators in the project.
-The size of the repository.
+1. The email address of the repository owner.
+2. The differences between the working directory and the staging area, including which files have changes that are staged, which files have changes that aren't yet staged, and which files aren't being tracked by Git.
+3. The list of all collaborators in the project.
+4. The size of the repository.
 
 ### Step 6: Viewing Commit History
 
@@ -109,10 +109,10 @@ A new tab will open in VS Code, showing the commit history of the current reposi
 
 Q: What information can you find in a Git commit history?
 
-The name of the creator of Git.
-The color scheme of your Git terminal.
-The author, date and time, and a brief description of each commit.
-The list of all files in the repository.
+1. The name of the creator of Git.
+2. The color scheme of your Git terminal.
+3. The author, date and time, and a brief description of each commit.
+4. The list of all files in the repository.
 
 ### Step 7: Create a New Branch
 
@@ -126,14 +126,10 @@ VS Code will create a new branch and automatically switch to it.
 
 Q: Why would you create a new branch in Git?
 
-To delete the changes made in the main branch.
-To isolate a set of changes from the main line of development.
-To rename the main branch.
-To synchronize the local repository with the remote repository.
-
-## Conclusion
-
-Well done! You've not only performed basic Git operations but also learned how to pull changes from Azure DevOps, check the status of your repository, view commit history, and create a new branch in Git—all using VS Code's GUI. In the next lab, we'll delve deeper into Azure DevOps and how it integrates with Git and VS Code. Keep up the excellent work!
+1. To delete the changes made in the main branch.
+2. To isolate a set of changes from the main line of development.
+3. To rename the main branch.
+4. To synchronize the local repository with the remote repository.
 
 ## Conclusion
 
