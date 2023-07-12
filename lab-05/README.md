@@ -14,7 +14,7 @@ Apologies for misunderstanding. Let's break down each of the steps into more det
 
 This is an important step to control who can view, modify, and delete code or other resources in the repository. By carefully setting up access permissions, you can ensure that only authorized team members can make changes to the codebase.
 
-**Q: What is the purpose of assigning access permissions in Azure DevOps?
+**Q: What is the purpose of assigning access permissions in Azure DevOps?**
 
 A:
 
@@ -35,7 +35,7 @@ A:
 
 Branch policies help ensure code quality by enforcing certain conditions that must be met before changes can be merged. This ensures that all code has been reviewed and meets the team's standards.
 
-**Q: Why are branch policies important in Azure DevOps?
+**Q: Why are branch policies important in Azure DevOps?**
 
 A:
 
@@ -62,7 +62,7 @@ Merge conflicts occur when the same part of your code was changed in both your c
 
 Merge conflicts can be tricky, but resolving them properly ensures that no changes are lost, and the code remains consistent across all branches.
 
-**Q: Why do merge conflicts occur in Git?
+**Q: Why do merge conflicts occur in Git?**
 
 A:
 
@@ -89,7 +89,7 @@ Pull requests are a mechanism to propose changes to the codebase. Here's how you
 
 Reviewing pull requests is an integral part of collaborative coding. It allows the team to maintain high code quality by closely inspecting all proposed changes.
 
-**Q: Why is reviewing pull requests important?
+**Q: Why is reviewing pull requests important?**
 
 A:
 
@@ -122,7 +122,7 @@ Fetching and pulling from the remote repository helps keep your local codebase u
 
 Pushing your changes to the remote repository ensures that your contributions are available to the rest of the team. Regularly pushing also reduces the likelihood of serious merge conflicts, as others can pull your changes and integrate them into their own work.
 
-**Q: Why should you enable the Git Credential Helper in VS Code?
+**Q: Why should you enable the Git Credential Helper in VS Code?**
 
 A:
 
@@ -147,7 +147,7 @@ A:
 
 Securing your Git credentials is important to prevent unauthorized access to your code. By regularly reviewing and updating your credentials, you can help protect your project from security threats.
 
-**Q: Why should you regularly fetch and pull from the remote repository?
+**Q: Why should you regularly fetch and pull from the remote repository?**
 
 A:
 
@@ -176,7 +176,7 @@ A `.gitignore` file specifies intentionally untracked files that Git should igno
 
 The `.gitignore` file is an important tool for managing your repository. By specifying files and directories that Git should ignore, you can keep your repository clean and prevent sensitive data from being exposed.
 
-**Q: Why should you regularly push your changes to the remote repository?
+**Q: Why should you regularly push your changes to the remote repository?**
 
 A:
 
@@ -185,7 +185,7 @@ A:
 3. To ensure that your contributions are available to other team members.
 4. To automatically fix any bugs in the code.
 
-**Q: What is the main purpose of a .gitignore file?
+**Q: What is the main purpose of a .gitignore file?**
 
 A:
 
