@@ -25,7 +25,7 @@ Staging is the step before committing. It's the process where you add changes to
 2. You should see README.md under Changes. This indicates that this file has been changed but not yet staged.
 3. Click on the '+' button next to README.md to stage your changes.
 
-Q: What is the purpose of the staging area in Git?
+**Q: What is the purpose of the staging area in Git?**
 
 A:
 
@@ -42,7 +42,7 @@ Committing is the process of saving your changes to the local repository.
 2. Write a short, descriptive message about what changes were made. For example: "Add initial content to README.md".
 3. Press `Ctrl + Enter` or click the ✔️ button to commit the changes.
 
-Q: What information should a good commit message include?
+**Q: What information should a good commit message include?**
 
 1. The weather forecast for the day.
 2. The time the changes were made.
@@ -58,7 +58,7 @@ Pushing refers to sending your committed changes to a remote repository. In our 
 
 VS Code will then push your changes to your Azure DevOps repository.
 
-Q: What does the "push" operation do in Git?
+**Q: What does the "push" operation do in Git?**
 
 1. It downloads changes from the remote repository to your local repository.
 2. It uploads your commit(s) from your local repository to a remote repository.
@@ -74,7 +74,7 @@ Pulling refers to fetching changes from a remote repository and merging them int
 
 VS Code will then pull any changes from your Azure DevOps repository and merge them into your local repository.
 
-Q: Why is "pulling" important in a team environment?
+**Q: Why is "pulling" important in a team environment?**
 
 1. It lets you work on your own without any disturbances.
 2. It ensures that your local repository is always up to date with the latest changes in the remote repository.
@@ -88,9 +88,7 @@ You can use VS Code's Source Control pane to see the status of your repository.
 1. Click on the Source Control icon in the left sidebar.
 2. Here, you can see which files have been changed, staged, or are untracked.
 
-Q: What information does the status of a Git repository provide?
-
-A:
+**Q: What information does the status of a Git repository provide?**
 
 1. The email address of the repository owner.
 2. The differences between the working directory and the staging area, including which files have changes that are staged, which files have changes that aren't yet staged, and which files aren't being tracked by Git.
@@ -107,7 +105,7 @@ VS Code allows you to view the commit history directly from its interface:
 
 A new tab will open in VS Code, showing the commit history of the current repository.
 
-Q: What information can you find in a Git commit history?
+**Q: What information can you find in a Git commit history?**
 
 1. The name of the creator of Git.
 2. The color scheme of your Git terminal.
@@ -124,7 +122,7 @@ Branching in Git is a way to work on different versions of a repository at one t
 
 VS Code will create a new branch and automatically switch to it.
 
-Q: Why would you create a new branch in Git?
+**Q: Why would you create a new branch in Git?**
 
 1. To delete the changes made in the main branch.
 2. To isolate a set of changes from the main line of development.
