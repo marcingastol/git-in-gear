@@ -6,7 +6,7 @@ The instructions remain the same as before. Familiarize yourself with Visual Stu
 
 ### Step 2: Install and Configure Git
 
-![alt text](1.png "Title")
+![alt text](1.png)
 
 While you still need to install Git from the terminal or your system's command line, you can configure your Git identity from VS Code's GUI
 After initializing your Git repository, let's add a new file:
