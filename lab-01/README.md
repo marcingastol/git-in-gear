@@ -27,19 +27,6 @@
 ![alt text](20.png)
 ![alt text](21.png)
 
-
-While you still need to install Git from the terminal or your system's command line, you can configure your Git identity from VS Code's GUI
-After initializing your Git repository, let's add a new file:
-
-- In VS Code, go to the Explorer pane.
-- Select the directory of your local Git repository (It should be open if you followed the previous steps).
-- Click on the 'New File' icon at the top of the Explorer pane.
-- Name the file 'README.md'.
-- Double click the new file in the Explorer to open it.
-- Add some content to your file, for example: # Welcome to My First Git Repository
-- Save the file by pressing Ctrl + S or by going to File > Save.
-- Now, you have a new file in your local Git repository, which we'll use in the subsequent labs to demonstrate various Git operations.
-
 ### Step 3: Initialize Your First Local Git Repository
 
 In VS Code:
