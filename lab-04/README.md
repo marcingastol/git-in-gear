@@ -1,175 +1,56 @@
-Sure, let's add some more steps to the process, which will give you a more comprehensive experience with syncing local and cloud repositories.
+# 🔄 Lab 02 - Understanding and Using Git Branches
 
-## 🔄 Lab 04 - Sync Local and Cloud Repositories
+Welcome to the third lab of our "Git in Gear" Workshop! In this lab, we will explore the power of branching in Git. By creating and managing different branches, you can work on different features in parallel without affecting the main codebase.
 
-### Step 1: Checking the Status of Your Repository
+## Objective
 
-Start by checking the current status of your repository.
+This lab aims to:
 
-1. Open VS Code and navigate to the Source Control panel in the Activity Bar.
-2. Here you will see a summary of changes that have been made in your local repository, including any staged changes, unstaged changes, and untracked files.
+- Understand the concept of Git branches.
+- Learn how to create, switch to, and delete branches using Visual Studio Code.
+- Understand the benefits of parallel development.
 
-This step is crucial to understand what changes you have made locally that could be committed and pushed to the remote repository.
+## Requirements
 
-**Q: What does the Git status show?**
+- Completion of previous labs and successful setup of Visual Studio Code with Git.
+- An active connection to the Azure DevOps repository.
 
-A:
-1. The version of Git you are using.
-2. Your commit history.
-3. The changes in your repository that have not yet been committed.
-4. The contents of your files.
+## Tasks
 
-### Step 2: Staging Changes
+### Task 1: Create a New Branch
 
-Before you commit changes, you have to stage them.
+Branches are used in Git to isolate your work from the main codebase. Let's create a new branch for developing a new feature.
 
-1. In the Source Control panel, you can see a list of changes.
-2. Click on the "+" button next to each change to add it to the staging area.
+1. Click on the branch icon in the status bar at the bottom (it probably says `master` or `main`).
+2. In the pop-up, select `Create new branch...`.
+3. Name your new branch `feature-1` and hit `Enter`.
 
-Staging allows you to select specific changes that you want to commit.
+### Task 2: Switch Between Branches
 
-**Q: What does staging a file in Git mean?**
+Switching between branches is easy in Git, allowing you to hop between different lines of development quickly.
 
-A: 
-1. It commits the file.
-2. It pushes the file to the remote repository.
-3. It prepares the file for commit.
-4. It deletes the file.
+1. Click on the branch icon in the status bar again.
+2. You'll see a list of all the branches. Select `master` or `main` to switch back to it.
+3. Repeat the process to switch back to your `feature-1` branch.
 
-### Step 3: Committing Changes
+### Task 3: Make Changes and Commit Them to the New Branch
 
-Once your changes are staged, you can commit them.
+Let's simulate working on a new feature by making changes in the `feature-1` branch.
 
-1. Write a descriptive message for your commit in the text box at the top of the Source Control panel.
-2. Click the checkmark above the text box to commit the changes.
+1. Create a new file named `feature-1.txt` and write some content in it.
+2. Stage and commit this change (recall from Lab 02).
 
-Commits are like saving a version of your files. Every commit is a snapshot of your work that you can revert to if needed.
+### Task 4: Delete a Branch
 
-**Q: What is a commit in Git?**
+Once you're done with a branch (for instance, after merging it), you might want to delete it.
 
-A:
-1. A saved version of your work.
-2. A command to push your changes to the remote repository.
-3. A clone of the remote repository.
-4. A tool to resolve merge conflicts.
+1. First, switch back to the `master` or `main` branch.
+2. Then, go to the Command Palette (`F1` or `Ctrl+Shift+P` on Windows and Linux, `Cmd+Shift+P` on Mac).
+3. Type `Git: Delete Branch...` and select it.
+4. From the list of branches, select `feature-1` to delete it.
 
-### Step 4: Pulling Changes from the Remote Repository
+## Summary
 
-Now let's make sure you have the latest version of the codebase.
+In this lab, you've learned the basics of branching in Git and how to manage branches within Visual Studio Code. You've created, switched to, and deleted branches. Additionally, you've made changes in a separate branch, simulating parallel development. You're making great strides in your Git journey! Up next, we'll explore how to understand your repository's history.
 
-1. Click on the ellipsis (...) for more actions in the Source Control panel.
-2. From the dropdown menu, select "Pull."
-
-**Q: Why is pulling from the remote repository important?**
-
-A: 
-1. It changes the name of your repository.
-2. It deletes files from your repository.
-3. It ensures your local repository is up-to-date with the latest changes from the remote repository.
-4. It makes your repository public.
-
-### Step 5: Merging Changes Between Branches
-
-Let's merge changes between branches:
-
-1. In the Source Control section, click on the branch name.
-2. A list of branches will appear. Right-click on the branch you want to merge into the current branch.
-3. Select "Merge Branch."
-
-**Q: Why would you merge branches in Git?**
-
-A: 
-1. To change the name of a branch.
-2. To delete a branch.
-3. To bring changes from one branch into another.
-4. To create a new branch.
-
-### Step 6: Pushing Local Changes to the Remote Repository
-
-Finally, let's share our changes with others:
-
-1. Find the "Synchronize Changes" button in the Status Bar of VS Code.
-2. Click on this button. This will push your commits to the remote repository in Azure DevOps.
-
-**Q: What does "pushing" to a remote repository do?**
-
-A: 
-1. It downloads the changes from the remote repository.
-2. It deletes your local changes.
-3. It uploads your commits from your local repository to the remote repository.
-4. It creates a new remote repository.
-
-### Step 7: Creating a New Branch
-
-Branching allows you to isolate your work from the main project. Let's create a new branch:
-
-1. In the Source Control panel, click on the current branch name.
-2. Click on "Create new branch" at the top.
-3. Enter a name for your branch and hit 'Enter'.
-
-This creates a new branch where you can work independently without affecting the main project.
-
-**Q: What is the main purpose of creating a new branch in Git?**
-
-A:
-1. To save changes to the remote repository.
-2. To create a copy of the repository.
-3. To isolate work on a specific task without affecting the main project.
-4. To delete parts of the project.
-
-### Step 8: Switching Between Branches
-
-You can easily switch between different branches in your project.
-
-1. Click on the current branch name in the Source Control panel.
-2. Select the branch you want to switch to.
-
-Remember, changes made in one branch do not affect other branches.
-
-**Q: What happens when you switch branches in Git?**
-
-A:
-1. The previous branch is deleted.
-2. Your changes are automatically pushed to the remote repository.
-3. The files and directories in your workspace are updated to reflect the contents of the new branch.
-4. Your local repository is reset.
-
-### Step 9: Resolving Merge Conflicts
-
-When merging branches, you may encounter conflicts. Let's see how to resolve them:
-
-1. If a conflict occurs, VS Code will highlight the conflict in the text editor.
-2. You can choose to accept the current change, accept the incoming change, or accept both changes.
-3. Once you've resolved the conflict, you can stage and commit the changes.
-
-Merge conflicts occur when the same part of your code is modified in two different branches.
-
-**Q: What is a merge conflict in Git?**
-
-A: 
-1. A tool for merging branches.
-2. An error that occurs when you try to commit changes.
-3. An issue that arises when the same part of the code has been modified in two branches.
-4. A tool for reverting to a previous commit.
-
-### Step 10: Deleting a Branch
-
-Once you have merged a feature branch into the main branch, you can delete the feature branch.
-
-1. Click on the current branch name in the Source Control panel.
-2. Right-click on the branch you want to delete.
-3. Select 'Delete branch'.
-
-Remember, it's a good practice to clean up branches that you are no longer using.
-
-**Q: Why would you delete a branch in Git?**
-
-A:
-1. To delete the changes made in that branch.
-2. To create a new branch.
-3. To merge two branches.
-4. To clean up after a feature has been merged into the main project.
-
----
-
-By completing this lab, you've learned how to check the status of your repository, stage and commit changes, pull the latest updates from the remote repository, merge branches, and push local changes to the remote repository. These skills are crucial for effective collaboration using Git, VS Code, and Azure DevOps.
+[Proceed to Lab 04 - Learning Git Log and Git Diff](./lab-04/README.md)
