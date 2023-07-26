@@ -1,4 +1,4 @@
-# 🔄 Lab 02 - Understanding and Using Git Branches
+# 🔄 Lab 03 - Understanding and Using Git Branches
 
 Welcome to the third lab of our "Git in Gear" Workshop! In this lab, we will explore the power of branching in Git. By creating and managing different branches, you can work on different features in parallel without affecting the main codebase.
 
