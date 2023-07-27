@@ -78,6 +78,3 @@ Congrats! You have now set up your Visual Studio Code with Git and linked your l
 ## Summary
 
 In this lab, you've learned about Visual Studio Code and how to set up a Git environment within it using its GUI. You also created your first local Git repository and linked it to Azure DevOps, paving the way for an integrated development workflow. Well done! Now, it's time to move on to the next Lab, where we'll dive into basic Git operations.
-
-[Proceed to Lab 02 - Basic Git Operations](./lab-02/README.md)
-
