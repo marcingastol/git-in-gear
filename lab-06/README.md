@@ -1,4 +1,4 @@
-# 🎯 Lab 06 - Git Reset, Revert, and Checkout
+# 🎯 Lab 06 - Git Reset, Revert and Checkout
 
 Welcome to the sixth lab of our "Git in Gear" Workshop! This lab will provide hands-on experience with powerful Git commands that allow you to navigate your project's history and modify it when necessary. We'll cover `git reset`, `git revert`, and `git checkout`.
 
