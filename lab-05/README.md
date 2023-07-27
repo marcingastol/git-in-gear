@@ -43,5 +43,3 @@ You can also compare different branches using Git diff.
 ## Summary
 
 In this lab, you've learned how to view the commit history and compare changes in your repository using `git log` and `git diff`. These commands are essential tools for understanding your project's history and identifying changes. Next, we'll dive into powerful Git commands that let you navigate and modify your project's history.
-
-[Proceed to Lab 08 - Git Reset, Revert, and Checkout](././lab-06/README.md)
