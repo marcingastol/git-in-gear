@@ -57,5 +57,3 @@ Pushing is the process of syncing your local repository with the remote reposito
 ## Summary
 
 In this lab, you've learned the basics of Git operations and how to perform them within Visual Studio Code. You created a new file, staged your changes, committed these changes to your local repository, and finally pushed them to Azure DevOps. You're making excellent progress! Next, we'll dive into how to integrate your local repository with Azure DevOps more deeply.
-
-[Proceed to Lab 03 - Azure DevOps Repository Integration](./lab-03/README.md)
