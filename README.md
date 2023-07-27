@@ -6,7 +6,7 @@ This workshop is divided into several labs:
 
 ## 💻 Lab 01 - VS Code & Git Setup
 
-In this lab, you'll familiarize yourself with the VS Code interface and perform initial Git setup. This includes creating your first local repository and linking it to your GitHub account.
+In this lab, you'll familiarize yourself with the VS Code interface and perform initial Git setup. This includes creating your first local repository and linking it to your Azure devops project account.
 
 [Lab 01 - VS Code & Git Setup](./lab-01/README.md)
 
@@ -16,23 +16,29 @@ Here, you'll learn fundamental Git operations such as staging, committing, and p
 
 [Lab 02 - Basic Git Operations](./lab-02/README.md)
 
-## ☁️ Lab 03 - Azure DevOps Repository Integration
+## 🔄 Lab 04 - Branching and Merging
 
-In this lab, you'll explore Azure DevOps and how to synchronize your local Git repositories with the Azure DevOps Repository for seamless integration and enhanced collaboration.
+In this lab, you'll learn how to create branches, switch between them, and merge changes from one branch into another. This will enable you to work on multiple features independently and integrate them when ready.
 
-[Lab 03 - Azure DevOps Repository Integration](./lab-03/README.md)
+[Lab 04 - Basic Git Operations](./lab-04/README.md)
 
-## 🔄 Lab 04 - Sync Local and Cloud Repositories
+## 📚 Lab 05 - Learning Git Log and Git Diff
 
-You will learn how to manage and synchronize your codebase across local and cloud environments, enhancing your collaboration and deployment processes.
+This lab focuses on understanding your repository's history. You'll explore the usage of git log to view commit history and git diff to compare changes between commits or branches.
 
-[Lab 04 - Sync Local and Cloud Repositories](./lab-04/README.md)
+[Lab 05 - Learning Git Log and Git Diff](./lab-05/README.md)
 
-## 🔒 Lab 05 - Ensuring Code Security and Integrity
+## 🎯 Lab 06 - Git Reset, Revert and Checkout
 
-In the final lab, you'll learn how to secure your codebase and maintain its integrity, exploring best practices for managing access permissions and resolving merge conflicts.
+Here, you'll get hands-on experience with some powerful Git commands. Learn how to navigate your project's history and modify it using git reset, git revert, and git checkout.
 
-[Lab 05 - Ensuring Code Security and Integrity](./lab-05/README.md)
+[Lab 06 - Git Reset, Revert and Checkout](./lab-06/README.md)
+
+## 🤝 Lab 07 - Collaborative Development Using Git
+
+In this final lab, you'll learn about collaborative development using Git. You'll understand how to fetch and pull changes from remote repositories, handle merge conflicts, and use git stash to save changes that aren't ready to be committed.
+
+[🤝 Lab 07 - Collaborative Development Using Git](./lab-07/README.md)
 
 ## Trademarks
 
