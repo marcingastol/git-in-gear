@@ -52,5 +52,3 @@ Once you're done with a branch (for instance, after merging it), you might want 
 ## Summary
 
 In this lab, you've learned the basics of branching in Git and how to manage branches within Visual Studio Code. You've created, switched to, and deleted branches. Additionally, you've made changes in a separate branch, simulating parallel development. You're making great strides in your Git journey! Up next, we'll explore how to understand your repository's history.
-
-[Proceed to Lab 04 - Learning Git Log and Git Diff](./lab-04/README.md)
