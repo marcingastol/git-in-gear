@@ -1,6 +1,6 @@
-# 📚 Lab 07 - Learning Git Log and Git Diff
+# 📚 Lab 05 - Learning Git Log and Git Diff
 
-Welcome to the seventh lab of our "Git in Gear" Workshop! In this lab, we will focus on understanding your repository's history. We'll explore the usage of `git log` to view commit history and `git diff` to compare changes between commits or branches.
+Welcome to the fifth lab of our "Git in Gear" Workshop! In this lab, we will focus on understanding your repository's history. We'll explore the usage of `git log` to view commit history and `git diff` to compare changes between commits or branches.
 
 ## Objective
 
